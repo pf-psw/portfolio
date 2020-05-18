@@ -102,7 +102,7 @@
       "PrjName": "참좋은여행 웹사이트 개편",
       "WhatIDid": ["PC/Mobile 퍼블리싱 검수"],
       "ImageURL": "http://sawa35.dothome.co.kr/thumbs/12.jpg",
-      "LinkURL": "#",
+      "LinkURL": "http://www.verygoodtour.com",
       "Hashtags": ["적응형", "Jquery", ".Net"]
     },
     {
@@ -110,7 +110,7 @@
       "PrjName": "웹사이트 및 ERP 유지보수 및 관리",
       "WhatIDid": ["사이트 유지보수"],
       "ImageURL": "http://sawa35.dothome.co.kr/images/img05.png",
-      "LinkURL": "#",
+      "LinkURL": "http://sawa35.dothome.co.kr/pf_vue",
       "Hashtags": ["쿼크모드", "UX/UI 설계"]
     },
     {

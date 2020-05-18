@@ -1,0 +1,57 @@
+<style>
+	* {padding:0; margin: 0; box-sizing: border-box;}
+	html, body {width: 100%; height: 100%;}
+.int_kal {position: relative; }
+.cover {position: absolute; display: block; top:50%; left:50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+.plates_wrap {width:1px; height: 100%; position: absolute; top:0; left:50%; -webkit-transform: translateX(-50%); transform: translateX(-50%);}
+.plates_wrap>p {position: absolute; -webkit-animation: flowwinds ease-in-out infinite; animation: flowwinds ease-in-out infinite; -webkit-transform-origin: center top; transform-origin: center top; -webkit-perspective: 100px; perspective: 100px; -webkit-transform: rotateX(0deg) rotateY(0deg); transform: rotateX(0deg) rotateY(0deg); -webkit-transform-style: preserve-3d; transform-style: preserve-3d;}
+.plates_wrap .plate01 {top: 410px; left: 585px; -webkit-animation-duration: 4s; animation-duration: 4s;}
+.plates_wrap .plate02 {top: 340px; left: -884px; -webkit-animation-duration: 5s; animation-duration: 5s;}
+.plates_wrap .plate03 {top: 402px; left: -482px; -webkit-animation-duration: 6s; animation-duration: 6s;}
+.plates_wrap .plate04 {top: -46px; left: 277px; z-index: 5; -webkit-animation-duration: 6s; animation-duration: 6s;}
+.plates_wrap .plate05 {top: -29px; left: 330px; z-index: 1; -webkit-animation-duration: 8s; animation-duration: 8s;}
+
+@-webkit-keyframes flowwinds {
+	0% {
+		-webkit-transform: rotate(3deg) rotateY(30deg);
+		        transform: rotate(3deg) rotateY(30deg);	
+	}
+	50% {
+		-webkit-transform: rotate(-2deg) rotateY(-34deg);
+		        transform: rotate(-2deg) rotateY(-34deg);	
+	}
+	100% {
+		-webkit-transform: rotate(3deg) rotateY(30deg);
+		        transform: rotate(3deg) rotateY(30deg);		
+	}
+}
+
+@keyframes flowwinds {
+	0% {
+		-webkit-transform: rotate(3deg) rotateY(30deg);
+		        transform: rotate(3deg) rotateY(30deg);	
+	}
+	50% {
+		-webkit-transform: rotate(-2deg) rotateY(-34deg);
+		        transform: rotate(-2deg) rotateY(-34deg);	
+	}
+	100% {
+		-webkit-transform: rotate(3deg) rotateY(30deg);
+		        transform: rotate(3deg) rotateY(30deg);		
+	}
+}
+
+.bg_conts {width:100%; height:5064px; background: url(images/int/bg.jpg) center center repeat;}
+.bg_conts li {margin-bottom: 82px;position: relative; top:-30px;}
+</style>
+<div class="int_kal">
+	<img src="images/int/img_01.jpg" alt="기획전 이미지">
+	<img class="cover" src="images/int/img_01.png" alt="기획전 이미지">
+	<div class="plates_wrap">
+		<p class="plate02"><img src="images/int/plate02.png" alt=""></p>
+		<p class="plate03"><img src="images/int/plate03.png" alt=""></p>
+		<p class="plate04"><img src="images/int/plate04.png" alt=""></p>
+		<p class="plate05"><img src="images/int/plate05.png" alt=""></p>
+	</div>
+</div>
+

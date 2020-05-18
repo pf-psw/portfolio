@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Vue Test</title>
+	<!-- Add this to <head> -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link type="text/css" rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="bootstrap/bootstrap-vue.min.css" />
+	<!-- Vue Cal -->
+	<link rel='stylesheet' href='https://unpkg.com/v-calendar/lib/v-calendar.min.css'>
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<!--크로스 브라우징 컴포넌트-->
+	<script src="js/polyfill.min.js"></script>
+	<!--뷰 코어-->
+	<script src="js/vue.min.js"></script>
+	<!--부트스트랩 컴포넌트-->
+	<script src="js/bootstrap-vue.min.js"></script>
+	<!--캘린더 컴포넌트-->
+	<script src='https://unpkg.com/v-calendar'></script>
+	<!-- HTTP 통신 라이브러리 -->
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+	<!-- 헤더 영역 -->
+	<header id="header" class="navbar-nav-scroll">
+		<cl></cl>
+		<!-- Vue 리스트 생성 -->
+		<ul class="navbar-nav bd-navbar-nav flex-row">
+			<li class="nav-item" v-for="menu in menus"><a href="#">{{ menu.text }}</a></li>
+			<li><i class="fas fa-search find"></i></li>
+		</ul>
+	</header>
+	<!-- 콘텐츠 영역 -->
+	<div class="search_wrap">
+		<div>
+			<div class="searchbox">
+				<h1>참좋은여행의 상품을 검색해보세요!</h1>
+				<p>패키지부터 자유여행까지 다향한 상품을 검색해보세요.</p>
+				<!-- 인풋 -->
+				<label for="destination">목적지</label>
+				<input id="destination" type="text" placeholder="모든 위치" value="">
+				<!-- 캘린더 -->
+				<label for="start">여행일정</label>
+				<div id='calendar'>
+					<v-date-picker :mode='mode' v-model='selectedDate
+						'>
+					</v-date-picker>
+				</div>
+				<!-- 성인  셀박 -->
+				<div class="divid2 sel1">
+					<label for="start">어른</label>
+					<select v-model="selected">
+						<option v-for="option in options" v-bind:value="option.value">
+							{{ option.text }}
+						</option>
+					</select>
+				</div>
+				<!-- 어린이 셀박 -->
+				<div class="divid2 sel2">
+					<label for="start">어린이</label>
+					<select v-model="selected">
+						<option v-for="option in options" v-bind:value="option.value">
+							{{ option.text }}
+						</option>
+					</select>
+				</div>
+				<button type="submit" class="btn_submit" aria-busy="false"><span class="_ftj2sg4">검색</span></button>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div id="Prd_lists">
+			<div v-if="datas.length === 0" class="loading">멱살잡고 로딩중...</div>
+			<div v-for="prd in datas">
+				<div v-for="item in prd" class="row">
+					<div class="prd_img">
+						<img :src="'http://contents.verygoodtour.com/content/' + item.PKGMASTER_REGION_CODE+'/'+item.PKGMASTER_NATION_CODE+'/'+item.PKGMASTER_STATE_CODE+'/'+item.PKGMASTER_CITY_CODE+'/image/'+item.PKGMASTER_FILE_NAME_M">
+					</div>
+					<div class="prd_content">
+						<a href="#" target="_blank">
+							<h2>{{item.PKGMASTER_MASTER_NAME}}</h2>
+							<p class="prd_desc">{{item.PKGMASTER_PKG_SUMMARY}}</p>
+							<p class="price"><span>최저가 : </span>&#65510;{{item.PKGMASTER_LOW_PRICE}} ~ </p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<div id="footer">
+		<div id="footerB_boxR">
+			<span>참좋은여행(주)</span>
+			<span>대표자 : 이상호</span>
+			<span>사업자등록번호 : 211-87-93420</span>
+			<span class="bNone">통신판매업신고 : 제2017-서울중구-1407호 <a class="con_info_bt" href="http://ftc.go.kr/info/bizinfo/communicationView.jsp?apv_perm_no=2017301013030201407&amp;area1=&amp;area2=&amp;currpage=1&amp;searchKey=04&amp;searchVal=2118793420&amp;stdate=&amp;enddate="
+				  target="_blank" title="사업자등록 상세정보 가기">사업자정보 확인</a></span>
+			<span class="bNone">개인정보관리 책임자 : 오운 wunos@verygoodtour.com</span><br>
+			<span class="bNone">주소 : 서울특별시 중구 서소문로 135 연호빌딩 10층~12층 참좋은여행 (구:서울특별시 중구 서소문동 21-1 연호빌딩 10층~12층)</span><br>
+			<span class="bNone"><em style="margin-left:32px;"></em>부산광역시 동구 중앙대로 192 한국교직원공제회 7층(구:부산광역시 동구 초량동 1205-1 한국교직원공제회 7층)</span><br>
+			<span class="bNone"><em style="margin-left:32px;"></em>대구광역시 중구 달구벌대로 2090 동양금융센터빌딩 12층(구:대구광역시 중구 남산동 936-1 동양금융센터빌딩 12층)</span><br>
+			<span class="bNone"><em style="margin-left:32px;"></em>대전광역시 서구 대덕대로 189 모태클리닉타워 4층(구: 대전광역시 서구 둔산동 1046 모태클리닉타워 4층)</span><br>
+			<span class="bNone"><em style="margin-left:32px;"></em>광주광역시 서구 상무중앙로 110 우체국보험광주회관 3층 (구: 광주광역시 서구 치평동 1213 우체국보험광주회관 3층)</span><br>
+			<span>대표전화 : 1588-7557</span>
+			<span>FAX : 02-599-3111</span>
+			<span>이메일무단수집거부</span> <span class="bNone">본페이지의 저작권은 verygoodtour에 있습니다.</span>
+		</div>
+	</div>
+
+
+
+	<!-- 펑션 -->
+	<script src="js/index.js"></script>
+</body>
+
+</html>

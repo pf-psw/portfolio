@@ -1,0 +1,276 @@
+
+@font-face {
+  font-family: "San Francisco Display Ultralight";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.eot?#iefix) format("embedded-opentype"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff2) format("woff2"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff) format("woff"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.ttf) format("truetype"), url("fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.svg#San Francisco Display Ultralight") format("svg")
+}
+
+@font-face {
+  font-family: "San Francisco Display Thin";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.eot?#iefix) format("embedded-opentype"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2) format("woff2"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff) format("woff"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.ttf) format("truetype"), url("fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.svg#San Francisco Display Thin") format("svg")
+}
+
+@font-face {
+  font-family: "San Francisco Display Medium";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.eot?#iefix) format("embedded-opentype"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff2) format("woff2"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff) format("woff"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.ttf) format("truetype"), url("fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.svg#San Francisco Display Medium") format("svg")
+}
+
+@font-face {
+  font-family: "San Francisco Display Semibold";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.eot?#iefix) format("embedded-opentype"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff2) format("woff2"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff) format("woff"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.ttf) format("truetype"), url("fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.svg#San Francisco Display Semibold") format("svg")
+}
+
+@font-face {
+  font-family: "San Francisco Display Bold";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.eot?#iefix) format("embedded-opentype"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2) format("woff2"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff) format("woff"), url(https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.ttf) format("truetype"), url("fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.svg#San Francisco Display Bold") format("svg")
+}
+
+h1:nth-child(1) {
+  font-family: "San Francisco Display Ultralight";
+}
+
+h1:nth-child(2) {
+  font-family: "San Francisco Display Thin";
+}
+
+h1:nth-child(3) {
+  font-family: "San Francisco Display Medium";
+}
+
+h1:nth-child(4) {
+  font-family: "San Francisco Display Semibold";
+}
+
+h1:nth-child(5) {
+  font-family: "San Francisco Display Bold";
+}
+
+body {
+	font-family: 'San Francisco Display Medium'
+}
+
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+.navbar-nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+#header {
+	text-align: center;
+	padding: 10px 0;
+	position: relative;
+	background: #fff;
+	/* border-bottom: 1px solid #98d9ff; */
+	box-shadow: 0px 2px 7px 0px #333;
+}
+#header a {
+	color: #35495e;
+	font-weight: bold;
+	font-size: 16px;
+}
+#header a:hover {
+	text-decoration: none;
+}
+#header li {
+	margin: 0 35px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#header li:hover a{
+	color: red;
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    line-height: 100%
+}
+.logo img {
+    vertical-align: middle;
+    margin-right: 6px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.find {
+	cursor: pointer;
+}
+
+
+#section {
+	width: 1024px;
+	margin: 0 auto;
+}
+.search_wrap {
+	background: url(https://images.unsplash.com/10/mason-jars.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1354&q=80) center center no-repeat;
+	background-size: cover
+}
+.search_wrap>div {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.searchbox {
+	background: #ffffff;
+	border-radius: 12px;
+	width: 508px;
+	/* margin-bottom: 64px; */
+	padding: 32px;
+	box-shadow: 4px 6px 19px 3px #333;
+}
+.searchbox h1 {
+	font-size: 32px;
+	font-weight: bold;
+	word-break: keep-all;
+	margin: 0;
+}
+.searchbox>p {
+	font-size: 18px;
+	line-height: 26px;
+}
+.searchbox input, .searchbox select {
+	display: block;
+	width: 100%;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: normal;
+	font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+	text-transform: undefined;
+	color: #484848;
+	padding: 11px;
+	font-weight: 600;
+}
+.searchbox label {
+    margin: 0px;
+    word-wrap: break-word;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1.3333333333333333em;
+    letter-spacing: 0.08333333333333333em;
+    color: #484848;
+    margin-top: 18px;
+}
+
+.divid2 {
+	width:49%;
+	display: inline-block;
+}
+
+
+.btn_submit {
+	width: 100%;
+    border-radius:4px;
+    font-size: 16px;
+    line-height:45px;
+    letter-spacing:normal;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    padding-top: 10px 22px;
+    font-weight: 800;
+    border-width:2px;
+    box-shadow: none;
+    background: #00aeef;
+    border-color: transparent;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+
+#footer {
+	width: 100%;
+	margin: 0 auto;
+	background: #333;
+	padding: 20px 0;
+}
+
+#footerB_boxR {
+	width: 1024px;
+	margin: 0 auto;
+	text-align: left;
+	word-break: keep-all;
+	font-size: 12px;
+	line-height: 18px;
+	color: #eee;
+}
+#Prd_lists {
+	width:1024px;
+	margin: 40px auto;
+	overflow: auto;
+	overflow-x: hidden;
+}
+#Prd_lists .row {
+	padding:10px 0;
+	margin: 15px 0;
+	border-bottom: 1px solid #eee;
+}
+
+.prd_img {
+	width: 224px;
+	text-align: center;
+	margin-right: 20px;
+}
+.prd_img img {
+	width: 100%;
+}
+.prd_content {
+	width: 780px;
+	position: relative;
+  opacity: 0;
+  animation: fadeinup 1s ease forwards;
+}
+@keyframes fadeinup {
+  to {
+    opacity: 1;
+  }
+}
+.prd_content a {
+	color: #333;
+}
+.prd_content a:hover {
+	text-decoration: none;
+}
+.prd_content h2 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+	letter-spacing: 0.25px;
+  text-overflow: ellipsis;
+  word-wrap:keep-all;
+}
+.prd_content .price {
+	font-size: 1.2em;
+	text-align: right;
+	width: 100%;
+	font-weight: bold
+}
+.prd_content .price span {
+	font-size: 14px
+}
+.prd_desc {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-wrap:break-word;
+  line-height: 1.5em;
+  max-height: 3em;
+}
+
+#prd {
+  color: #2c3e50;
+  max-width: 560px;
+}

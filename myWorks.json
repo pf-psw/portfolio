@@ -4,7 +4,7 @@
       "WhereamI": "KTH",
       "PrjName": "K쇼핑 모바일 라이브 프로젝트",
       "WhatIDid": ["모바일 퍼블리싱"],
-      "ImageURL": "./thumbs/11.jpg",
+      "ImageURL": "http://sawa35.dothome.co.kr/thumbs/11.jpg",
       "LinkURL": "https://m.kshop.co.kr/",
       "Hashtags": ["적응형", "Jquery", ".Net"]
     },
@@ -14,7 +14,7 @@
       "PrjName": "인터렉션 기획전",
       "WhatIDid": ["인터렉션 퍼블리싱"],
       "ImageURL": "./thumbs/00.jpg",
-      "LinkURL": "./portfolios/pf00/0314_singapore.html",
+      "LinkURL": "http://sawa35.dothome.co.krportfolios/pf00/0314_singapore.html",
       "Hashtags": ["적응형", "Jquery", ".Net"]
     },
     {
@@ -22,7 +22,7 @@
       "PrjName": "인터렉션 기획전",
       "WhatIDid": ["인터렉션 퍼블리싱"],
       "ImageURL": "./thumbs/01.jpg",
-      "LinkURL": "./portfolios/pf01/index.html",
+      "LinkURL": "http://sawa35.dothome.co.krportfolios/pf01/index.html",
       "Hashtags": ["적응형", "Jquery", ".Net"]
     },
     {
@@ -30,7 +30,7 @@
       "PrjName": "인터렉션 기획전",
       "WhatIDid": ["인터렉션 퍼블리싱"],
       "ImageURL": "./thumbs/02.jpg",
-      "LinkURL": "./portfolios/pf02/index.html",
+      "LinkURL": "http://sawa35.dothome.co.krportfolios/pf02/index.html",
       "Hashtags": ["적응형", "Jquery", ".Net"]
     },
     {
@@ -38,7 +38,7 @@
       "PrjName": "인터렉션 기획전",
       "WhatIDid": ["인터렉션 퍼블리싱"],
       "ImageURL": "./thumbs/03.jpg",
-      "LinkURL": "./portfolios/pf03/index.html",
+      "LinkURL": "http://sawa35.dothome.co.krportfolios/pf03/index.html",
       "Hashtags": ["적응형", "Jquery", ".Net"]
     },
     {
@@ -46,7 +46,7 @@
       "PrjName": "인터렉션 기획전",
       "WhatIDid": ["인터렉션 퍼블리싱"],
       "ImageURL": "./thumbs/04.jpg",
-      "LinkURL": "./portfolios/pf04/index.html",
+      "LinkURL": "http://sawa35.dothome.co.krportfolios/pf04/index.html",
       "Hashtags": ["적응형", "Jquery", ".Net"]
     },
     {
@@ -54,7 +54,7 @@
       "PrjName": "인터렉션 기획전",
       "WhatIDid": ["인터렉션 퍼블리싱"],
       "ImageURL": "./thumbs/05.jpg",
-      "LinkURL": "./portfolios/pf05/index.html",
+      "LinkURL": "http://sawa35.dothome.co.krportfolios/pf05/index.html",
       "Hashtags": ["적응형", "Jquery", ".Net"]
     },
     {
@@ -62,7 +62,7 @@
       "PrjName": "인터렉션 기획전",
       "WhatIDid": ["인터렉션 퍼블리싱"],
       "ImageURL": "./thumbs/06.jpg",
-      "LinkURL": "./portfolios/pf06/index.html",
+      "LinkURL": "http://sawa35.dothome.co.krportfolios/pf06/index.html",
       "Hashtags": ["적응형", "Jquery", ".Net"]
     },
     {
@@ -70,7 +70,7 @@
       "PrjName": "인터렉션 기획전",
       "WhatIDid": ["인터렉션 퍼블리싱"],
       "ImageURL": "./thumbs/07.jpg",
-      "LinkURL": "./portfolios/pf07/index.html",
+      "LinkURL": "http://sawa35.dothome.co.krportfolios/pf07/index.html",
       "Hashtags": ["적응형", "Jquery", ".Net"]
     },
     {
@@ -78,7 +78,7 @@
       "PrjName": "인터렉션 기획전",
       "WhatIDid": ["인터렉션 퍼블리싱"],
       "ImageURL": "./thumbs/08.jpg",
-      "LinkURL": "./portfolios/pf08/0115_japan.html",
+      "LinkURL": "http://sawa35.dothome.co.krportfolios/pf08/0115_japan.html",
       "Hashtags": ["적응형", "Jquery", ".Net"]
     },
     {
@@ -86,7 +86,7 @@
       "PrjName": "인터렉션 기획전",
       "WhatIDid": ["인터렉션 퍼블리싱"],
       "ImageURL": "./thumbs/09.jpg",
-      "LinkURL": "./portfolios/pf09/0108_vt.html",
+      "LinkURL": "http://sawa35.dothome.co.krportfolios/pf09/0108_vt.html",
       "Hashtags": ["적응형", "Jquery", ".Net"]
     },
     {
@@ -94,7 +94,7 @@
       "PrjName": "인터렉션 기획전",
       "WhatIDid": ["인터렉션 퍼블리싱"],
       "ImageURL": "./thumbs/10.jpg",
-      "LinkURL": "./portfolios/pf_vue/index.html",
+      "LinkURL": "http://sawa35.dothome.co.krportfolios/pf_vue/index.html",
       "Hashtags": ["적응형", "Jquery", ".Net"]
     },
     {

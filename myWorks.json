@@ -134,7 +134,7 @@
       "PrjName": "Vue.JS 활용 상품 연동 테스트",
       "WhatIDid": "호텔 리스트를 JSON형태로 호출하여 무한 스크롤 페이지 구현",
       "ImageURL": "http://sawa35.dothome.co.kr/images/img02.png",
-      "LinkURL": "#",
+      "LinkURL": "http://sawa35.dothome.co.kr/portfolios/pf_vue/",
       "Hashtags": ["Restful", "Vue.JS", "반응형", "개발 협업"]
     },
     {
@@ -142,7 +142,7 @@
       "PrjName": "파고다 차이랑 브랜드 웹사이트 제작",
       "WhatIDid": "파고다 차이랑 반응형 퍼블리싱",
       "ImageURL": "http://sawa35.dothome.co.kr/images/18.jpg",
-      "LinkURL": "#",
+      "LinkURL": "http://www.chailang.co.kr/",
       "Hashtags": ["반응형", "워드프레스 연동", "Jquery", "자체 테마 제작"]
     },
     {
@@ -150,7 +150,7 @@
       "PrjName": "더본코리아 글로벌 사이트 반응형 웹사이트 제작",
       "WhatIDid": "본가 / 원조쌈밥집 / 백스비어 반응형 퍼블리싱",
       "ImageURL": "http://sawa35.dothome.co.kr/images/13.jpg",
-      "LinkURL": "#",
+      "LinkURL": "http://www.bornga.kr/",
       "Hashtags": ["반응형", "워드프레스 연동", "Jquery", "자체 테마 제작"]
     },
     {
@@ -158,7 +158,7 @@
       "PrjName": "지니언스 반응형 웹사이트 제작",
       "WhatIDid": "반응형 웹사이트 제작",
       "ImageURL": "http://sawa35.dothome.co.kr/images/14.jpg",
-      "LinkURL": "#",
+      "LinkURL": "https://www.genians.co.kr/",
       "Hashtags": ["반응형", "워드프레스 연동", "Jquery", "바체 테마 제작"]
     },
     {
@@ -166,7 +166,7 @@
       "PrjName": "KINX 반응형 웹사이트 제작",
       "WhatIDid": "반응형 웹사이트 제작",
       "ImageURL": "http://sawa35.dothome.co.kr/images/12.jpg",
-      "LinkURL": "#",
+      "LinkURL": "https://www.kinx.net/",
       "Hashtags": ["반응형", "워드프레스 연동", "Jquery", "자체 테마 제작"]
     },
     {
